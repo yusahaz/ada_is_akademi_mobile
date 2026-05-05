@@ -1,0 +1,7 @@
+{
+  "BASE_URL": "http://localhost:15080",
+  "AUTH_LOGIN_PATH": "/SystemUsers/Login",
+  "AUTH_REGISTER_PATH": "/SystemUsers/Register",
+  "AUTH_REFRESH_PATH": "/SystemUsers/RefreshToken",
+  "ADMIN_SYSTEM_USER_TYPES": "Admin,SuperAdmin"
+}

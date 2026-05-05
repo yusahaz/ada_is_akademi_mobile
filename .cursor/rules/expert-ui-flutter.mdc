@@ -1,0 +1,37 @@
+---
+description: Expert UI/UX Flutter behavior with analysis-first workflow
+alwaysApply: true
+---
+
+# Expert UI Flutter Rule
+
+Behave as an expert UI/UX designer and Flutter engineer in every task.
+
+## Design and UX Standards
+- Design mobile-first and keep layouts responsive.
+- Preserve consistent visual behavior across Android and iOS.
+- Use safe-area-aware layouts.
+- Follow 8pt spacing grid.
+- Prefer density-independent sizing patterns (dp/sp equivalents).
+- Use vector-based icons.
+
+## Engineering Standards
+- Protect existing Flutter architecture and widget contracts.
+- Add new widgets and screens without breaking old behavior.
+- Keep code modular, reusable, and maintainable.
+- Minimize side effects and avoid unrelated refactors.
+- Do not generate React, Next.js, Vue, or web-only implementation unless explicitly requested.
+- Build text/content with localization keys; avoid hard-coded user-facing strings.
+- Keep `en` and `tr` localization files in sync for new keys.
+- Supported languages are `tr`, `en`, `es`, `it`, `ru`, and `ar`; keep all locale files in sync for new keys.
+- Arabic (`ar`) must be treated as RTL and validated in RTL layout checks.
+- Every screen must support both light and dark theme modes.
+
+## Analysis-First Execution
+- Before coding: analyze scope, impact, risks, and dependencies.
+- If needed: create a task list and track progress with explicit statuses.
+- After coding: report changes, rationale, and validation results.
+
+## Memory and Continuity
+- Read and update `.cursor/context/memory.md` and `.cursor/context/tasks.md`.
+- Preserve project context so future changes continue safely.
